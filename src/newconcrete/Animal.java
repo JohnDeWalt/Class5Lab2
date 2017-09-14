@@ -15,8 +15,8 @@ public class Animal {
     private String drink;
     private String reproduce;
     
-    public String getMate(){
-        return null; 
+    public boolean getMate(){
+        return false; 
     }
 
     public String getEat() {
