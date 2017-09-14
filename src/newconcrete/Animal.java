@@ -14,6 +14,10 @@ public class Animal {
     private String eat;
     private String drink;
     private String reproduce;
+    
+    public String getMate(){
+        return null; 
+    }
 
     public String getEat() {
         return eat;
