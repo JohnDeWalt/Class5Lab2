@@ -9,7 +9,7 @@ package newconcrete;
  *
  * @author Jackie
  */
-public class Frog {
+public class Frog extends Amphibian {
     public boolean jump;
     public boolean carnivore;//all frogs are carnivores
 
