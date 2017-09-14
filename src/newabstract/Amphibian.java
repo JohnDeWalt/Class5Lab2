@@ -9,7 +9,7 @@ package newabstract;
  *
  * @author Jackie
  */
-public class Amphibian extends Animal {
+public abstract class Amphibian extends Animal {
     private boolean coldBlooded; // mush be cold blooded to be an amphibian
     private boolean permeableSkin; //must have permeable skin to be a amphibian
     private boolean ecosystem; //must live on land and water

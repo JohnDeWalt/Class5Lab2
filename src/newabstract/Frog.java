@@ -9,7 +9,7 @@ package newabstract;
  *
  * @author Jackie
  */
-public class Frog extends Amphibian {
+public abstract class Frog extends Amphibian {
     public boolean jump;
     public boolean carnivore;//all frogs are carnivores
 
