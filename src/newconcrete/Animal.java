@@ -20,6 +20,9 @@ public class Animal {
     }
 
     public void setEat(String eat) {
+        if(eat == null){
+            throw new IllegalArgumentException("Animals must eat to survive");
+        }
         this.eat = eat;
     }
 
@@ -28,6 +31,9 @@ public class Animal {
     }
 
     public void setDrink(String drink) {
+        if(drink == null){
+            throw new IllegalArgumentException("Animals must drink to survive");
+        }
         this.drink = drink;
     }
 
@@ -36,6 +42,9 @@ public class Animal {
     }
 
     public void setReproduce(String reproduce) {
+        if(reproduce == null){
+            throw new IllegalArgumentException("Animals must reproduce to keep the species alive"); 
+        }
         this.reproduce = reproduce;
     }
     
